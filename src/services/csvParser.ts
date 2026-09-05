@@ -285,7 +285,7 @@ export function parseFinancialCSV(
  * synthesizes the corresponding Gateway partner settlement feed with realistic,
  * real-world settlement discrepancies (92% exact match, some delayed clearing,
  * realistic MDR fees, and 8% exceptions) so full reconciliation, exception detection,
- * cash position, and AI reporting work out of the box!
+  * cash position, and financial reporting work out of the box!
  */
 export function generateGatewayCompanionFeed(ledgerRecords: FinancialRecord[]): FinancialRecord[] {
   return ledgerRecords.map((a, idx) => {
