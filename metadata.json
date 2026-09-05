@@ -1,0 +1,6 @@
+{
+  "name": "FIRA - AI Finance Controller",
+  "description": "Financial Intelligence, Reconciliation & Analytics. Automated multi-source reconciliation, exception detection, and AI controller intelligence for finance operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
