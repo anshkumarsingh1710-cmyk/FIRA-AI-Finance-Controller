@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# FIRA — AI Financial Controller
 
-# Run and deploy your AI Studio app
+FIRA (Financial Intelligence & Reconciliation Analytics) is a financial analytics and reconciliation platform designed to help businesses analyze financial data, identify anomalies, reconcile transactions, and generate useful financial reports.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/d1fe9aa3-0a2d-4701-99af-db3dee132b34
+- 📊 Financial analytics dashboard
+- 🔄 Transaction reconciliation
+- 🚨 Anomaly and exception detection
+- 📁 CSV data ingestion
+- 📈 Financial performance analysis
+- 📋 Exception management
+- 📑 Financial reports
+- 🎯 Controller-style financial insights
+- 📉 Interactive financial metrics and visualizations
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Vite
+- Node.js
+- CSS
+- CSV data processing
 
+## 📂 Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+FIRA-AI-Finance-Controller/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── types/
+│   ├── index.css
+│   └── main.tsx
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
